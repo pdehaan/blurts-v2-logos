@@ -1,0 +1,21 @@
+{
+  "name": "blurts-v2-logos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf screenshots/*",
+    "test": "playwright test # --headed"
+  },
+  "keywords": [],
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "playwright": "^1.32.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.32.0"
+  }
+}
